@@ -19,7 +19,7 @@ class NoContentWidget extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Container(
-            child: Image.asset('assets/images/error.jpg', height: 50, width: 40, alignment: Alignment.center),
+            child: new Image.asset('assets/images/errorIcon.png', height: 50, width: 40, alignment: Alignment.center),
           ),
           SizedBox(
             height:10
